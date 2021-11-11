@@ -36,7 +36,7 @@ with open('./secret_key.txt') as f:
 DEBUG = True
 
 # Determines which IP addresses and URLs can be validly hosted
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['asign75.azurewebsites.net']
 
 # For sites and site_maps
 SITE_ID = 1
